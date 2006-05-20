@@ -5,4 +5,5 @@ README
 lib/Term/Size.pm
 lib/Term/Size/Win32.pm
 t/01_basic.t
+
 META.yml                                 Module meta-data (added by MakeMaker)

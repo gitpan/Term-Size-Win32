@@ -11,7 +11,7 @@ require Win32::Console;
 @ISA = qw(Exporter);
 @EXPORT_OK = qw(chars pixels);
 
-$VERSION = '0.203';
+$VERSION = '0.204';
 
 =head1 NAME
 
@@ -46,6 +46,10 @@ If you need to pass a filehandle to either of the C<Term::Size>
 functions, beware that the C<*STDOUT{IO}> syntax is only supported in
 Perl 5.004 and later.  If you have an earlier version of Perl, or are
 interested in backwards compatibility, use C<*STDOUT> instead.
+
+  To be true, you don't need a Win32 machine to run this module. 
+  You need a working B<Win32::Console>. Of course, it is
+  easier if you are in Win32.
 
 =head1 EXAMPLES
 
