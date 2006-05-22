@@ -1,4 +1,16 @@
 Revision history for Perl extension Term-Size-Win32.
 
+0.205  Sun May 21 2006
+        - added t/00_use.t
+        - added t/99_pod.t
+        - Size.pm now lives in Term-Size distribution
+          where it belongs
+
+0.204  Sun May 20 2006
+        - make test skips all tests if Win32::Console
+          is not installed - this allows the distribution
+          to be installed elsewhere, but it won't work
+          if there is no working Win32::Console.
+
 0.203  Fri May 19 2006
         - original version

@@ -2,8 +2,9 @@ Changes
 MANIFEST
 Makefile.PL
 README
-lib/Term/Size.pm
-lib/Term/Size/Win32.pm
+Win32.pm
+t/00_use.t
 t/01_basic.t
+t/99_pod.t
 
 META.yml                                 Module meta-data (added by MakeMaker)
