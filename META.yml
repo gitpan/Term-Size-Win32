@@ -1,11 +1,15 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         Term-Size-Win32
-version:      0.205
-version_from: Win32.pm
-installdirs:  site
-requires:
+--- #YAML:1.0
+name:                Term-Size-Win32
+version:             0.206
+abstract:            Perl extension for retrieving terminal size (Win32 version)
+license:             perl
+generated_by:        ExtUtils::MakeMaker version 6.30_04
+author:              Adriano R. Ferreira <ferreira@cpan.org>
+distribution_type:   module
+requires:     
     Test::More:                    0
-
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.17
+meta-spec:
+    url: http://module-build.sourceforge.net/META-spec-new.html
+    version: 1.1
+recommends:   
+    Win32::Console:                0

@@ -11,7 +11,7 @@ require Win32::Console;
 @ISA = qw(Exporter);
 @EXPORT_OK = qw(chars pixels);
 
-$VERSION = '0.205';
+$VERSION = '0.206';
 
 =head1 NAME
 
