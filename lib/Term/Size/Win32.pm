@@ -1,7 +1,7 @@
 package Term::Size::Win32;
 
 use strict;
-use Carp;
+#use Carp;
 use vars qw(@EXPORT_OK @ISA $VERSION);
 
 use Exporter ();
@@ -11,7 +11,7 @@ require Win32::Console;
 @ISA = qw(Exporter);
 @EXPORT_OK = qw(chars pixels);
 
-$VERSION = '0.206';
+$VERSION = '0.207';
 
 =head1 NAME
 
@@ -95,7 +95,7 @@ mapping tty devices to appropriate Windows handles.
 
 =head1 TODO
 
-Unify this with Term-Size.
+Unify this with via some unifying module like Term-Size-Any.
 
 =head1 AUTHOR
 
@@ -103,6 +103,13 @@ Tim Goodwin, <tim@uunet.pipex.com>, 1997-04-23. (The author of the
 original Unix-only version of this module.)
 
 Adriano Ferreira, <ferreira@cpan.org>, 2006-05-19.
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (C) 2006 by A. R. Ferreira
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
 
 =cut
 

@@ -1,5 +1,9 @@
 Revision history for Perl extension Term-Size-Win32.
 
+0.207  Tue Nov 7 2006
+        - no code change
+        - COPYRIGHT AND LICENSE section added to POD
+
 0.206  Wed Sep 13 2006
         - no change - only regenerated META.yml
 
