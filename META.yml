@@ -1,16 +1,16 @@
 --- #YAML:1.0
 name:                Term-Size-Win32
-version:             0.207
-abstract:            Perl extension for retrieving terminal size (Win32 version)
+version:             0.208
+abstract:            Retrieve terminal size (on Windows)
 license:             perl
-generated_by:        ExtUtils::MakeMaker version 6.31
+author:              
+    - Adriano R. Ferreira <ferreira@cpan.org>
+generated_by:        ExtUtils::MakeMaker version 6.44
 distribution_type:   module
 requires:     
     Test::More:                    0
 meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
-    version: 1.2
-author:
-    - Adriano R. Ferreira <ferreira@cpan.org>
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
 recommends:   
     Win32::Console:                0

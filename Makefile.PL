@@ -16,12 +16,12 @@ WriteMakefile(
         'Test::More'     => 0, # build 
     }, 
     ($] >= 5.005 ? (
-        'ABSTRACT_FROM' => 'lib/Term/Size/Win32.pm',
+        'ABSTRACT_FROM' => 'lib/Term/Size/Win32.pod',
         'AUTHOR'        => 'Adriano R. Ferreira <ferreira@cpan.org>'
     ) : ()),
     ($EUMM_VERSION >= 6.30_01 ? (
         LICENSE => 'perl', 
         EXTRA_META => "recommends:   \n    Win32::Console:                0\n"
-    ) :())
+    ) :()),
 
 );
