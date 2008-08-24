@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Term-Size-Win32
-version:             0.208
+version:             0.209
 abstract:            Retrieve terminal size (on Windows)
 license:             perl
 author:              
@@ -9,8 +9,7 @@ generated_by:        ExtUtils::MakeMaker version 6.44
 distribution_type:   module
 requires:     
     Test::More:                    0
+    Win32::Console:                0
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.3.html
     version: 1.3
-recommends:   
-    Win32::Console:                0

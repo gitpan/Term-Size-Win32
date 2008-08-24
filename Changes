@@ -1,8 +1,16 @@
 Revision history for Perl extension Term-Size-Win32.
 
+0.209  Sun Aug 24 2008
+       - no code change
+       - this is for Win32 only - the tests should 
+         never have succeeded for systems with no
+         Win32::Console
+       - now it faithfully installs only if there is a 
+         working Win32::Console
+
 0.208  Sat Aug 16 2008
        - no code change
-       - POD live at its own file
+       - POD lives at its own file
 
 0.207  Tue Nov 7 2006
         - no code change

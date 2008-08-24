@@ -11,7 +11,7 @@ require Win32::Console;
 @ISA = qw(Exporter);
 @EXPORT_OK = qw(chars pixels);
 
-$VERSION = '0.208';
+$VERSION = '0.209';
 
 sub chars {
     my @size = Win32::Console->new()->Size();  # FIXME argument ignored
